@@ -4,7 +4,6 @@ menu = ReplyKeyboardMarkup(
     keyboard = [
         [
             KeyboardButton(text='Sahobalar'),
-            KeyboardButton(text='Sahobalar1'),
         ],
     ],
     resize_keyboard=True
