@@ -1,10 +1,9 @@
 from aiogram.dispatcher.filters import Command, Text
 from aiogram.types import Message, ReplyKeyboardRemove
-from keyboards.default.menuKeyboard import menu
+from keyboards.default.menuButton import menu
 
 from loader import dp
 
-
-@dp.message_handlers(Command("menu"))
-async def show_menu(message: Message):
-    await message.answer("Tanlang", reply_markup=menu)
+@dp.message_handler(Command('menu'))
+async def show_menu(msg: Message):
+    await msg.answer("salam", reply_markup=menu)
