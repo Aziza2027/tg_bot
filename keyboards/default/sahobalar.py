@@ -8,7 +8,7 @@ sahobalarMenu = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text='Usmon ibn Affon r.a'),
-            KeyboardButton(text='Ali ibn Abu Tolib'),
+            KeyboardButton(text='Ali ibn Abu Tolib r.a'),
         ],
     ],
     resize_keyboard=True

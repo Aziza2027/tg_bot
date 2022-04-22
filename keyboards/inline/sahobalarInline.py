@@ -15,5 +15,8 @@ sahobalarList = InlineKeyboardMarkup(
         [
             InlineKeyboardButton(text='Usmon ibn Affon r.a',callback_data="sahoba03"),
         ],
+        [
+            InlineKeyboardButton(text='Usmon ibn Affon r.a', callback_data="sahoba03"),
+        ],
     ],
 )
