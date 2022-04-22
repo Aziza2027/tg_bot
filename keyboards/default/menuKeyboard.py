@@ -6,6 +6,10 @@ menu = ReplyKeyboardMarkup(
             KeyboardButton(text='Sahobalar'),
             KeyboardButton(text='hadislar'),
         ],
+        [
+            KeyboardButton(text='Hadislar'),
+            KeyboardButton(text='Namoz'),
+        ]
     ],
     resize_keyboard=True
 )
