@@ -13,12 +13,16 @@ from loader import dp
 async def show_menu(message: Message):
     await message.answer("Tanlang", reply_markup=menu)
 
-@dp.message_handler(text_contains='Sahobalar')
+@dp.message_handler(text_contains='Sahobalar👳🏻‍♂️️')
 async def send_list(message: Message):
     await message.answer("tanlang!",reply_markup=sahobalarMenu)
 
-@dp.message_handler(text='hadislar')
-async def send_link(message: Message):
+@dp.message_handler(text_contains='Bosh menu⬅️')
+async def back(message: Message):
+    await message.answer("Bosh menu",reply_markup=menu)
+
+@dp.message_handler(text='Hadislar📚')
+async def send_hadislar(message: Message):
     await message.answer("tanlang!",reply_markup=hadislarMenu)
 
 
