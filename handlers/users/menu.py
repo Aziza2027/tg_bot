@@ -9,9 +9,9 @@ from aiogram.types import InputFile
 from loader import dp
 
 
-@dp.message_handler(Command("menu"))
-async def show_menu(message: Message):
-    await message.answer("Tanlang", reply_markup=menu)
+# @dp.message_handler(Command("menu"))
+# async def show_menu(message: Message):
+#     await message.answer("Tanlang", reply_markup=menu)
 
 @dp.message_handler(text_contains='Sahobalar👳🏻‍♂️️')
 async def send_list(message: Message):
