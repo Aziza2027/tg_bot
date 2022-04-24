@@ -10,7 +10,7 @@ booksMenu = ReplyKeyboardMarkup(
             KeyboardButton(text='Tarixi Muhammadiy'),
             KeyboardButton(text='Iymon'),
         ],        [
-            KeyboardButton(text='Ibodati islomiya '),
+            KeyboardButton(text='Ibodati islomiya'),
             KeyboardButton(text='Oisha roziyallohu anhu'),
         ],        [
             KeyboardButton(text='Payg\'ambarlar tarixi'),
@@ -18,6 +18,7 @@ booksMenu = ReplyKeyboardMarkup(
         ],
         [
             KeyboardButton(text='Saodat asri(4 tom)'),
+            KeyboardButton(text='Bosh menu⬅️'),
 
         ],
     ],

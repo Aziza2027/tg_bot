@@ -29,9 +29,9 @@ async def send_book04(message: types.Message):
     book_file = InputFile(path_or_bytesio="books/Alixonto'ra Sog'uniy. Tarixi Muhammadiy.pdf")
     await message.reply_document(book_file, caption="Jannatga eltuvchi amallar")
 
-@dp.message_handler(text_contains=("Ibodati islomiya "))
+@dp.message_handler(text_contains=("Ibodati islomiya"))
 async def send_book05(message: types.Message):
-    book_file = InputFile(path_or_bytesio="books/ibodati_islomiya_ziyouz_com.pdf")
+    book_file = InputFile(path_or_bytesio="books/Ibodati islomiya.pdf")
     await message.reply_document(book_file, caption="Ibodati islomiya ")
 
 @dp.message_handler(text_contains=("Qiyomat va Oxirat"))
@@ -41,7 +41,7 @@ async def send_book06(message: types.Message):
 
 @dp.message_handler(text_contains=("Oisha roziyallohu anhu"))
 async def send_book07(message: types.Message):
-    book_file = InputFile(path_or_bytesio="books/Oisha roziyallohu anhu.pdf")
+    book_file = InputFile(path_or_bytesio="books/Oisha (R.A.).pdf")
     await message.reply_document(book_file, caption="Oisha roziyallohu anhu")
 
 @dp.message_handler(text_contains=("Payg'ambarlar tarixi"))
