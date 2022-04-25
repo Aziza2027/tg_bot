@@ -4,8 +4,7 @@ from aiogram.types import Message, ReplyKeyboardRemove
 from keyboards.default.menuKeyboard import menu
 from keyboards.default.sahobalar import sahobalarMenu
 from keyboards.default.hadislar import hadislarMenu
-from keyboards.inline.sahobalarInline import sahobalarList
-from aiogram.types import InputFile
+from keyboards.default.quranKeyboards import quranMenu
 from loader import dp
 
 
@@ -24,5 +23,10 @@ async def back(message: Message):
 @dp.message_handler(text='Hadislar📚')
 async def send_hadislar(message: Message):
     await message.answer("tanlang!",reply_markup=hadislarMenu)
+
+@dp.message_handler(text='Qur\'on')
+async def send_hadislar(message: Message):
+    await message.answer("tanlang!",reply_markup=quranMenu)
+
 
 
