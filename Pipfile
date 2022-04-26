@@ -9,6 +9,8 @@ environs = "~=8.0.0"
 requests = "*"
 json-extract = "*"
 aioschedule = "*"
+pyrogram = "*"
+
 
 [dev-packages]
 
