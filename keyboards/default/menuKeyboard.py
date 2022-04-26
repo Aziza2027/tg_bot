@@ -1,9 +1,14 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
 menu = ReplyKeyboardMarkup(
-    keyboard = [
+    keyboard=[
         [
-            KeyboardButton(text='Sahobalar'),
+            KeyboardButton(text='Namoz🕋'),
+            KeyboardButton(text='Sahobalar👳🏻‍♂️️'),
+        ],
+        [
+            KeyboardButton(text='Hadislar📚'),
+            KeyboardButton(text='Duo va Zikirlar🤲')
         ],
     ],
     resize_keyboard=True

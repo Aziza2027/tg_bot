@@ -1,2 +1,3 @@
+from . import namoz
+from . import hadislar
 from . import menuKeyboard
-from . import sahobalar
